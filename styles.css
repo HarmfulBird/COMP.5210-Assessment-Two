@@ -142,29 +142,14 @@ nav {
 
 #dataDisplay .image h1:first-of-type {
     position: absolute;
-    bottom: 0px;
+    bottom: 5vmin;
     left: 16px;
 }
 
-@media (min-width: 521px) {
-    #dataDisplay .image h1:last-of-type {
-        position: absolute;
-        bottom: 0px;
-        right: 16px;
-    }
-}
-
-
-@media (max-width: 520px) {
-    #dataDisplay .image h1:first-of-type {
-        bottom: 5vmin;
-        left: 16px;
-    }
-    #dataDisplay .image h1:last-of-type {
-        position: absolute;
-        bottom: 0px;
-        left: 16px;
-    }
+#dataDisplay .image h1:last-of-type {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
 }
 
 #dataDisplay strong {
