@@ -1,0 +1,184 @@
+:root {
+    --ldarkbg: rgb(44, 44, 44);
+    --darkbg: rgb(19, 19, 19);
+    --lightgraybg: rgb(169, 169, 169);
+    --darkgraybg: rgb(92, 91, 91);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sans Normalcy','Nanum Gothic',Arial,sans-serif;
+    background-color: var(--ldarkbg);
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a {
+    text-decoration: none;
+    background: 0 0;
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 16vmin; 
+    padding: 0px 0px 0px 0px;
+
+    background-color: var(--darkbg);
+
+    color: white;
+    border-bottom: 8px solid black;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    float: left;
+    width: 13vmin;
+    margin: 0px;
+    padding-left: 2.5vmin;
+    padding-top: 1.5vmin;
+    left: 0px;
+}
+
+header h1 { 
+    padding: 4vmin 0vmin 0vmin 17.5vmin;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 4vmin;
+    text-wrap: nowrap;
+}
+
+header h2 {
+    padding: 0vmin 0vmin 0vmin 17.8vmin;
+    margin-top: 0px;
+    font-size: 2.2vmin;
+}
+
+
+nav {
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: 2vmin;
+    text-wrap: nowrap;
+    letter-spacing: 1px;
+}
+
+#fetchButton {
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: var(--darkbg);
+    color: white;
+    display: inline;
+    padding: 1vmin 2vmin 1vmin 2vmin;
+}
+
+#fetchButton span {
+    font-size: 2.2vmin;
+}
+
+#dataDisplay .SCPCard {
+    border: 2px solid var(--darkgraybg);
+    border-radius: 12px;
+    padding: 15px 20px 15px 20px;
+    margin:10px auto 20px auto;
+    background-color: var(--darkbg);
+    color: lightgray;
+
+    font-family: 'Sans Normalcy','Nanum Gothic',Arial,sans-serif;
+    font-size: 2.5vmin;
+    line-height: 2.7vmin;
+
+    display: block;
+    width: 85%; 
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+#dataDisplay .image {
+    width: fit-content;
+    max-width: 85%;
+    max-height: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+#dataDisplay .image img {
+    max-width: 100%;
+    max-height: 300px;
+    margin: auto;
+    filter: brightness(70%);
+    border-radius: 12px;
+    border: 2px solid var(--darkgraybg);
+}
+
+#dataDisplay .image h1 {
+    font-size: 3.5vmin;
+    background: linear-gradient(#00000066, #00000099);
+    padding: 4px 8px 4px 8px;
+    border-radius: 12px;
+}
+
+#dataDisplay .image h1:first-of-type {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+}
+
+@media (min-width: 521px) {
+    #dataDisplay .image h1:last-of-type {
+        position: absolute;
+        bottom: 0px;
+        right: 16px;
+    }
+}
+
+
+@media (max-width: 520px) {
+    #dataDisplay .image h1:first-of-type {
+        bottom: 5vmin;
+        left: 16px;
+    }
+    #dataDisplay .image h1:last-of-type {
+        position: absolute;
+        bottom: 0px;
+        left: 16px;
+    }
+}
+
+#dataDisplay strong {
+    font-size: 3vmin;
+    line-height: 5vmin;
+}
+
+#dataDisplay button {
+    font-size: 1.7vmin;
+    border-radius: 12px;
+    border: 2px solid var(--darkgraybg);
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+    color: white;
+    background-color: var(--darkgraybg);
+    cursor: pointer;
+}
