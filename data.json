@@ -21,13 +21,13 @@
     {
         "subject": "SCP-005",
         "class": "Safe",
-        "containment":" ",
-        "summary":"<br>SCP-005 poses no immediate risk in any direct sense. <br>Even so, its unique functions require special measures be taken to restrict access and manipulation of the object. <br>Approval of at least one (1) Level 4 personnel is required for the removal of the object from its containment area."
+        "containment":"<br>SCP-005 poses no immediate risk in any direct sense. <br>Even so, its unique functions require special measures be taken to restrict access and manipulation of the object. <br>Approval of at least one (1) Level 4 personnel is required for the removal of the object from its containment area.",
+        "summary":"<br>In appearance, SCP-005 resembles an ornate key, displaying the characteristics of a typical mass produced key used in the 1920s. <br>The key was discovered when a civilian used it to infiltrate a high security facility. <br>SCP-005 seems to have the unique ability to open any and all forms of lock, be they mechanical or digital, with relative ease. <br>The origin of this ability has yet to be determined."
     },
     {
         "subject": "SCP-006",
         "class": "Safe",
-        "containment":" ",
+        "containment":"<br>Whereas the nature of SCP-006 does not warrant any extensive containment, a certain level of secrecy is necessary regarding the object's existence and properties, for obvious reasons. <br>The following procedures are required not for personnel safety, but to deny or hide knowledge of SCP-006's effects from the personnel who interact with it.",
         "summary":"<br>SCP-006 is a very small spring located 60 km west of Astrakhan. <br>Foundation Command was aware of its existence since the 19th century, but were unable to secure it until 1991 due to political reasons. <br>Ingesting the liquid produces the following properties in human beings: the ability to regenerate DNA damaged by sufficient duplication, heightened excitement of cellular duplication, vastly improved abilities in the repair of damaged tissue, and a frightening increase in the effectiveness of the human immune system."
     }
 ]

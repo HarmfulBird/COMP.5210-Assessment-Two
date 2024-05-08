@@ -1,8 +1,7 @@
 // Create event listener for window load
-// when window is loaded, fetch JSON data
+// when window is loaded, wait a little to make sure everything is fine, then load JSON
 window.onload = () => {
-    const speech = new SpeechSynthesisUtterance("Page Loaded");
-    window.speechSynthesis.speak(speech);
+    window.speechSynthesis.cancel();
     
     // fetch JSON Data
     fetch('data.json')
@@ -48,7 +47,7 @@ function displayData(data)
             // Adds ID to button with same name as the subject
             speechbutton.id = item.subject;
             // when button clicked read back name
-            const monster = item.subject + ". " + item.class + ". " + item.summary;
+            const monster = item.subject + ", Object Class: , " + item.class + ". " + item.containment;
 
             //--- Button Event Listener
             speechbutton.addEventListener('click', ()=>{speakText(monster, item.subject)});
